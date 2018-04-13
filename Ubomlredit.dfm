@@ -1,0 +1,360 @@
+object Fbomlredit: TFbomlredit
+  Left = 630
+  Top = 210
+  Width = 897
+  Height = 480
+  Caption = 'Fbomlredit'
+  Color = clBtnFace
+  Font.Charset = GB2312_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #23435#20307
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 12
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 881
+    Height = 81
+    Align = alTop
+    Caption = #22522#26412#20449#24687
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 16
+      Top = 26
+      Width = 48
+      Height = 12
+      Caption = #35746' '#21333' '#21495
+    end
+    object Label2: TLabel
+      Left = 361
+      Top = 26
+      Width = 6
+      Height = 12
+    end
+    object Label6: TLabel
+      Left = 216
+      Top = 26
+      Width = 6
+      Height = 12
+    end
+    object Label3: TLabel
+      Left = 512
+      Top = 24
+      Width = 6
+      Height = 12
+    end
+    object Label10: TLabel
+      Left = 16
+      Top = 48
+      Width = 6
+      Height = 12
+    end
+    object Label12: TLabel
+      Left = 96
+      Top = 57
+      Width = 24
+      Height = 12
+      Caption = #36127#27425
+    end
+    object Label13: TLabel
+      Left = 200
+      Top = 57
+      Width = 24
+      Height = 12
+      Caption = #26579#25439
+    end
+    object Label14: TLabel
+      Left = 304
+      Top = 57
+      Width = 24
+      Height = 12
+      Caption = #32455#25439
+    end
+    object Label15: TLabel
+      Left = 408
+      Top = 57
+      Width = 24
+      Height = 12
+      Caption = #32455#27604
+    end
+    object Label16: TLabel
+      Left = 512
+      Top = 57
+      Width = 48
+      Height = 12
+      Caption = #33853#27700#23450#22411
+    end
+    object Label17: TLabel
+      Left = 648
+      Top = 56
+      Width = 216
+      Height = 12
+      Caption = #32511#33394#20195#34920#24050#32463#30830#35748#23545#24212#39068#33394#12289#23610#23544#12289#37096#20301
+      Font.Charset = GB2312_CHARSET
+      Font.Color = clGreen
+      Font.Height = -12
+      Font.Name = #23435#20307
+      Font.Style = []
+      ParentFont = False
+    end
+    object RzButtonEdit1: TRzButtonEdit
+      Left = 80
+      Top = 22
+      Width = 121
+      Height = 20
+      TabOrder = 0
+      OnButtonClick = RzButtonEdit1ButtonClick
+    end
+    object BitBtn1: TBitBtn
+      Left = 784
+      Top = 20
+      Width = 75
+      Height = 25
+      Caption = #20445#23384
+      TabOrder = 1
+      OnClick = BitBtn1Click
+    end
+    object RzNumericEdit2: TRzNumericEdit
+      Left = 124
+      Top = 53
+      Width = 53
+      Height = 20
+      TabOrder = 2
+      DisplayFormat = '0.00;(0.00)'
+    end
+    object RzNumericEdit3: TRzNumericEdit
+      Left = 228
+      Top = 53
+      Width = 53
+      Height = 20
+      TabOrder = 3
+      DisplayFormat = '0.00;(0.00)'
+    end
+    object RzNumericEdit4: TRzNumericEdit
+      Left = 332
+      Top = 53
+      Width = 53
+      Height = 20
+      TabOrder = 4
+      DisplayFormat = '0.00;(0.00)'
+    end
+    object RzNumericEdit5: TRzNumericEdit
+      Left = 436
+      Top = 53
+      Width = 53
+      Height = 20
+      TabOrder = 5
+      DisplayFormat = '0.00;(0.00)'
+    end
+    object RzNumericEdit6: TRzNumericEdit
+      Left = 564
+      Top = 53
+      Width = 53
+      Height = 20
+      TabOrder = 6
+      DisplayFormat = '0.00;(0.00)'
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Top = 271
+    Width = 881
+    Height = 170
+    Align = alBottom
+    Caption = #26126#32454
+    TabOrder = 1
+    object Label5: TLabel
+      Left = 448
+      Top = 54
+      Width = 48
+      Height = 12
+      Caption = #26631#20934#25968#37327
+    end
+    object RzNumericEdit1: TRzNumericEdit
+      Left = 520
+      Top = 50
+      Width = 65
+      Height = 20
+      TabOrder = 0
+      IntegersOnly = False
+      DisplayFormat = '0.000;(0.000)'
+    end
+    object BitBtn2: TBitBtn
+      Left = 648
+      Top = 32
+      Width = 75
+      Height = 25
+      Caption = #22686#34892
+      TabOrder = 1
+      OnClick = BitBtn2Click
+    end
+    object BitBtn3: TBitBtn
+      Left = 648
+      Top = 80
+      Width = 75
+      Height = 25
+      Caption = #21024#34892
+      TabOrder = 2
+      OnClick = BitBtn3Click
+    end
+    object PageControl1: TPageControl
+      Left = 16
+      Top = 16
+      Width = 393
+      Height = 153
+      ActivePage = TabSheet1
+      Style = tsFlatButtons
+      TabOrder = 3
+      object TabSheet1: TTabSheet
+        Caption = #38754#26009
+        object Label4: TLabel
+          Left = 8
+          Top = 6
+          Width = 48
+          Height = 12
+          Caption = #26009'    '#21495
+        end
+        object Label7: TLabel
+          Left = 8
+          Top = 36
+          Width = 48
+          Height = 12
+          Caption = #38376'    '#24133
+        end
+        object Label8: TLabel
+          Left = 8
+          Top = 66
+          Width = 48
+          Height = 12
+          Caption = #20811'    '#37325
+        end
+        object Label9: TLabel
+          Left = 8
+          Top = 96
+          Width = 48
+          Height = 12
+          Caption = #38754#26009#29305#24449
+        end
+        object Label11: TLabel
+          Left = 208
+          Top = 96
+          Width = 48
+          Height = 12
+          Caption = #26159#21542#22278#31570
+        end
+        object RzButtonEdit2: TRzButtonEdit
+          Left = 64
+          Top = 2
+          Width = 121
+          Height = 20
+          TabOrder = 0
+          OnEnter = RzButtonEdit2Enter
+          OnExit = RzButtonEdit2Exit
+          OnButtonClick = RzButtonEdit2ButtonClick
+        end
+        object RzEdit1: TRzEdit
+          Left = 64
+          Top = 32
+          Width = 121
+          Height = 20
+          TabOrder = 1
+        end
+        object RzEdit2: TRzEdit
+          Left = 64
+          Top = 62
+          Width = 121
+          Height = 20
+          TabOrder = 2
+        end
+        object ComboBox1: TComboBox
+          Left = 64
+          Top = 92
+          Width = 121
+          Height = 20
+          ItemHeight = 12
+          TabOrder = 3
+        end
+        object ComboBox2: TComboBox
+          Left = 264
+          Top = 92
+          Width = 73
+          Height = 20
+          Style = csDropDownList
+          ItemHeight = 12
+          TabOrder = 4
+          Items.Strings = (
+            #26159
+            #21542)
+        end
+      end
+    end
+    object BitBtn4: TBitBtn
+      Left = 632
+      Top = 128
+      Width = 105
+      Height = 25
+      Caption = #39068#33394#12289#23610#23544#12289#37096#20301
+      TabOrder = 4
+      OnClick = BitBtn4Click
+    end
+  end
+  object cxGrid1: TcxGrid
+    Left = 0
+    Top = 81
+    Width = 881
+    Height = 190
+    Align = alClient
+    TabOrder = 2
+    object cxGrid1DBTableView1: TcxGridDBTableView
+      DataController.DataSource = DataSource1
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      NavigatorButtons.ConfirmDelete = False
+      OnCustomDrawCell = cxGrid1DBTableView1CustomDrawCell
+      OptionsData.CancelOnExit = False
+      OptionsData.Deleting = False
+      OptionsData.DeletingConfirmation = False
+      OptionsData.Editing = False
+      OptionsData.Inserting = False
+      OptionsView.GroupByBox = False
+    end
+    object cxGrid1Level1: TcxGridLevel
+      GridView = cxGrid1DBTableView1
+    end
+  end
+  object ADOQuery1: TADOQuery
+    Connection = DM.conn
+    Parameters = <>
+    Left = 96
+    Top = 144
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOQuery1
+    Left = 136
+    Top = 144
+  end
+  object ADOQuery2: TADOQuery
+    Connection = DM.conn
+    Parameters = <>
+    Left = 96
+    Top = 184
+  end
+  object ADOQuery3: TADOQuery
+    Connection = DM.conn
+    Parameters = <>
+    Left = 240
+    Top = 208
+  end
+  object ADOQuery4: TADOQuery
+    Connection = DM.conn
+    Parameters = <>
+    Left = 296
+    Top = 208
+  end
+end

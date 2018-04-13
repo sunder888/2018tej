@@ -1,0 +1,63 @@
+inherited Fjhsclb: TFjhsclb
+  Top = 342
+  Caption = 'Fjhsclb'
+  PixelsPerInch = 96
+  TextHeight = 12
+  inherited RzToolbar1: TRzToolbar
+    ToolbarControls = (
+      RzToolButton1
+      RzToolButton2
+      RzToolButton3
+      RzSpacer1
+      RzToolButton4
+      RzToolButton5
+      RzSpacer2
+      RzToolButton6
+      StatusBar1
+      StatusBar2
+      StatusBar3)
+    inherited RzToolButton1: TRzToolButton
+      OnClick = RzToolButton1Click
+    end
+    inherited RzToolButton2: TRzToolButton
+      OnClick = RzToolButton2Click
+    end
+    inherited RzToolButton3: TRzToolButton
+      OnClick = RzToolButton3Click
+    end
+    object StatusBar1: TStatusBar
+      Left = 380
+      Top = 13
+      Width = 0
+      Height = 19
+      Panels = <>
+    end
+    object StatusBar2: TStatusBar
+      Left = 380
+      Top = 13
+      Width = 0
+      Height = 19
+      Panels = <>
+    end
+    object StatusBar3: TStatusBar
+      Left = 380
+      Top = 13
+      Width = 0
+      Height = 19
+      Panels = <>
+    end
+  end
+  inherited cxGrid1: TcxGrid
+    Height = 390
+  end
+  object StatusBar4: TStatusBar [3]
+    Left = 0
+    Top = 434
+    Width = 688
+    Height = 19
+    Panels = <
+      item
+        Width = 50
+      end>
+  end
+end

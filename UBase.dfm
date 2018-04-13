@@ -1,0 +1,35 @@
+object FBase: TFBase
+  Left = 340
+  Top = 236
+  AutoScroll = False
+  Caption = 'FBase'
+  ClientHeight = 453
+  ClientWidth = 688
+  Color = clBtnFace
+  UseDockManager = True
+  Font.Charset = GB2312_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #23435#20307
+  Font.Style = []
+  FormStyle = fsMDIChild
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Visible = True
+  WindowState = wsMaximized
+  OnClose = FormClose
+  OnKeyPress = FormKeyPress
+  PixelsPerInch = 96
+  TextHeight = 12
+  object ComboBox: TComboBox
+    Left = 88
+    Top = 80
+    Width = 145
+    Height = 20
+    Style = csDropDownList
+    ItemHeight = 12
+    TabOrder = 0
+    Visible = False
+  end
+end
